@@ -89,7 +89,6 @@ Module.register("newsfeed",{
 	// Override dom generator.
 	getDom: function() {
 		var wrapper = document.createElement("div");
-
 		if (this.config.feedUrl) {
 			wrapper.className = "small bright";
 			wrapper.innerHTML = this.translate("configuration_changed");
